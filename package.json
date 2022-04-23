@@ -1,0 +1,9 @@
+{
+  "name": "earthquake_zen_garden",
+  "version": "1.0.0",
+  "description": "This is a coding exercise written in react as a part of my interview with Realtor.com",
+  "scripts": {
+    "start": ""
+  },
+  "author": "Iman"
+}
