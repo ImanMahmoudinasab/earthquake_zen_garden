@@ -9,5 +9,9 @@
   "author": "Iman",
   "devDependencies": {
     "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   }
 }
