@@ -6,3 +6,4 @@ dist
 
 # misc
 .DS_Store
+.parcel-cache
