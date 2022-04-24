@@ -8,14 +8,21 @@
   },
   "author": "Iman",
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "@emotion/babel-plugin": "^11.9.2",
+    "parcel": "^2.5.0",
+    "sharp": "^0.29.3"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "normalize.css": "^8.0.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"
   },
   "alias": {
+    "@Zen/layouts": "./src/layouts/",
+    "@Zen/resources": "./src/resources/",
+    "@Zen/themes": "./src/themes/",
     "@Zen/Views": "./src/containers/Views/"
   }
 }
