@@ -4,6 +4,8 @@ import Body from "./components/Body/Body";
 import Header from "./components/Header/Header";
 
 function DefaultLayout(props) {
+  const { logo, title, user } = props;
+
   const theme = useTheme();
 
   return (
@@ -24,7 +26,7 @@ function DefaultLayout(props) {
           },
         }}
       />
-      <Header />
+      <Header logo={logo} title={title} user={user} />
       <Body>{props.children}</Body>
     </div>
   );

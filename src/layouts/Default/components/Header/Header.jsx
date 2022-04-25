@@ -1,8 +1,8 @@
 import { useTheme } from "@emotion/react";
 import { Link } from "react-router-dom";
-import logo from "@Zen/resources/logo.png?width=40";
 
-function Header() {
+function Header(props) {
+  const { logo, title, user } = props;
   const theme = useTheme();
 
   return (
@@ -41,11 +41,11 @@ function Header() {
             color: theme.palette.text.secondary,
           }}
         >
-          Earthquake Zen Garden
+          {title}
         </h1>
       </div>
       <div>
-        <Link to="/profile">Welcome Sally</Link>
+        <Link to="/profile">Welcome {user.firstName}</Link>
       </div>
     </header>
   );
