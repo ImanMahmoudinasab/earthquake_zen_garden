@@ -12,6 +12,7 @@ function DefaultLayout(props) {
         styles={{
           html: {
             backgroundColor: theme.background.default,
+            color: theme.palette.text.primary,
             fontSize: theme.typography.htmlFontSize,
             fontFamily: theme.typography.fontFamily,
           },

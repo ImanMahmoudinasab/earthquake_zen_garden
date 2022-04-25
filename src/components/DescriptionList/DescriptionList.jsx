@@ -6,11 +6,13 @@ function DescriptionList(props) {
   const theme = useTheme();
 
   return (
-    <dl css={{ display: "table", borderSpacing: theme.spacing(1) }}>
+    <dl css={{ display: "table", borderSpacing: theme.spacing(1), margin: 0 }}>
       {fields.map((field) => {
         return (
           <div key={field.key} css={{ display: "table-row" }}>
-            <dt css={{ display: "table-cell" }}>{field.label}</dt>
+            <dt css={{ display: "table-cell", whiteSpace: "nowrap" }}>
+              {field.label}
+            </dt>
             <dd
               css={{
                 display: "table-cell",
