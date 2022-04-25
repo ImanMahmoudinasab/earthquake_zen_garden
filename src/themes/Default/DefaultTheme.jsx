@@ -29,7 +29,16 @@ const theme = {
     },
   },
   typography: {
+    htmlFontSize: 16,
     fontFamily: "sans-serif",
+    h1: {
+      fontSize: "2.1rem",
+      fontWeight: 400,
+    },
+    h2: {
+      fontSize: "1.6rem",
+      fontWeight: 300,
+    },
   },
   background: {
     default: "#ffffff",

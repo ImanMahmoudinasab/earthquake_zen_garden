@@ -36,6 +36,7 @@ function Header() {
       >
         <h1
           css={{
+            ...theme.typography.h1,
             margin: theme.spacing(0),
             color: theme.palette.text.secondary,
           }}

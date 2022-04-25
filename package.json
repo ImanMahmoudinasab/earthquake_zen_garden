@@ -23,6 +23,8 @@
   },
   "alias": {
     "@Zen/components": "./src/components/",
+    "@Zen/containers": "./src/containers/",
+    "@Zen/data": "./src/data/",
     "@Zen/layouts": "./src/layouts/",
     "@Zen/resources": "./src/resources/",
     "@Zen/themes": "./src/themes/",

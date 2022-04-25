@@ -12,6 +12,7 @@ function DefaultLayout(props) {
         styles={{
           html: {
             backgroundColor: theme.background.default,
+            fontSize: theme.typography.htmlFontSize,
             fontFamily: theme.typography.fontFamily,
           },
           "a:link": {
